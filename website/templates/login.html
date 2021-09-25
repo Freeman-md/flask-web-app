@@ -2,5 +2,9 @@
 {% block title %}Login{% endblock %}
 {% block content %}
 <h1>This is the login page</h1>
-{{ text }}
+{% if boolean == True %}
+  Yes it is true!
+{% else %} 
+  No it isn't true
+{% endif %}
 {% endblock %}
