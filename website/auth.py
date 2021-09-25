@@ -28,6 +28,4 @@ def sign_up():
       flash('Password must be at least characters', category='error')
     else:
       flash('Account created!', category='success')
-      # add user to database
-      pass
   return render_template('sign_up.html')
